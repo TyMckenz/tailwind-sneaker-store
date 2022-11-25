@@ -6,9 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        shrik: ['Shrikhand', 'cursive'],
-      },
+      fontFamily: {},
     },
   },
   plugins: [],
