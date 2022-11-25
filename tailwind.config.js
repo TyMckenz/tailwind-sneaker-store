@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        covered: ['Covered By Your Grace', 'cursive'],
+        shrik: ['Shrikhand', 'cursive'],
       },
     },
   },

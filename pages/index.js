@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Layout>
-        <h2 className="flex p-8 font-bold justify-center items-center">
+        <h2 className="flex p-8 text-2xl font-bold justify-center items-center">
           Mens Shoes
         </h2>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
@@ -15,7 +15,7 @@ export default function Home() {
             <ProductItems product={product} key={product.slug}></ProductItems>
           ))}
         </div>
-        <h2 className="flex p-8 font-bold justify-center items-center">
+        <h2 className="flex p-8 text-2xl font-bold justify-center items-center">
           Womens Shoes
         </h2>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
