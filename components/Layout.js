@@ -2,9 +2,10 @@ import React, { useContext } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { Store } from '../utils/Store';
+import { Monoton } from '@next/font/google';
 
 export default function Layout({ title, children }) {
-  const { state, dispatch } = useContext(Store);
+  const { state } = useContext(Store);
   const { cart } = state;
 
   return (
@@ -16,7 +17,7 @@ export default function Layout({ title, children }) {
       <div className="flex min-h-screen flex-col justify-between ">
         <header>
           <nav className="flex h-12 items-center px-4 justify-between shadow-md">
-            <Link className="font-mono text-3xl" href="/">
+            <Link className="font-serif text-3xl" href="/">
               Cheeky Sneakies
             </Link>
             <div>

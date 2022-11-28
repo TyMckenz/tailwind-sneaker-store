@@ -1,4 +1,4 @@
-const mendata = {
+const data = {
   products: [
     {
       name: 'High Air',
@@ -33,7 +33,7 @@ const mendata = {
     {
       name: 'Verse',
       slug: 'verse',
-      catagory: 'Mens Shoe',
+      catagory: 'Unisex Shoe',
       image: '/images/convstyle.jpg',
       price: 90,
       brand: 'RoyalFree',
@@ -60,7 +60,57 @@ const mendata = {
       countInStock: 25,
       description: 'Sleek Skateboarding Shoe',
     },
+    {
+      name: 'SuperComf',
+      slug: 'supercomf',
+      catagory: 'Womens Shoe',
+      image: '/images/sportsshoe.jpg',
+      price: 150,
+      brand: 'RoyalFree',
+      countInStock: 25,
+      description: 'Super Cushioned Sporty Shoe',
+    },
+    {
+      name: 'Retro Sport',
+      slug: 'retro-sport',
+      catagory: 'Womens Shoe',
+      image: '/images/am90style.jpg',
+      price: 170,
+      brand: 'RoyalFree',
+      countInStock: 20,
+      description: 'Retro Shoe Bringing Back The Styles From The 90s',
+    },
+    {
+      name: 'SuperSport',
+      slug: 'supersport',
+      catagory: 'Womens Shoe',
+      image: '/images/wsports.jpg',
+      price: 140,
+      brand: 'RoyalFree',
+      countInStock: 27,
+      description: 'Athletic Everyday Shoe With New School Twists',
+    },
+    {
+      name: 'UniStreet',
+      slug: 'unistreet',
+      catagory: 'Unisex Shoe',
+      image: '/images/unisexsport.jpg',
+      price: 130,
+      brand: 'RoyalFree',
+      countInStock: 23,
+      description: 'Shoe With No Restrictions',
+    },
+    {
+      name: 'W Skate Low',
+      slug: 'w-skate-low',
+      catagory: 'Womens Shoe',
+      image: '/images/yelloepurplow.jpg',
+      price: 110,
+      brand: 'RoyalFree',
+      countInStock: 25,
+      description: 'Balanced Skateboarding Shoe',
+    },
   ],
 };
 
-export default mendata;
+export default data;

@@ -1,17 +1,17 @@
-import { useRouter } from 'next/router';
+import Router, { useRouter } from 'next/router';
 import React, { useContext } from 'react';
 import Layout from '../../components/Layout';
-import mendata from '../../utils/mendata';
+import data from '../../utils/data';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Store } from '../../utils/Store';
 
 export default function ProductScreen() {
   const { state, dispatch } = useContext(Store);
-
+  const router = useRouter();
   const { query } = useRouter();
   const { slug } = query;
-  const product = mendata.products.find((x) => x.slug === slug);
+  const product = data.products.find((x) => x.slug === slug);
   if (!product) {
     return <div>No Longer Available</div>;
   }
@@ -27,6 +27,7 @@ export default function ProductScreen() {
     }
 
     dispatch({ type: 'CART_ADD_ITEM', payload: { ...product, quantity } });
+    router.push('/cart');
   };
 
   return (
