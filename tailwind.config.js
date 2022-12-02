@@ -6,7 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {},
+      fontFamily: {
+        mali: ['Mali', 'cursive'],
+      },
     },
   },
   plugins: [],

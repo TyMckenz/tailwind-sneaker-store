@@ -26,14 +26,14 @@ export default function Layout({ title, children }) {
   return (
     <>
       <Head>
-        <title>{title ? title + 'CS' : 'Cheeky Sneakies'}</title>
+        <title>{title ? title + ' CS' : 'Cheeky Sneakies'}</title>
         <meta name="description" content="Cheeky Sneakies Store" />
       </Head>
       <ToastContainer position="bottom-center" limit={1} />
       <div className="flex min-h-screen flex-col justify-between ">
         <header>
           <nav className="flex h-12 items-center px-4 justify-between shadow-md">
-            <Link className="font-serif text-3xl" href="/">
+            <Link className="font-mali text-3xl" href="/">
               Cheeky Sneakies
             </Link>
             <div>
@@ -86,7 +86,7 @@ export default function Layout({ title, children }) {
           </nav>
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
-        <footer className="flex h-10 font-mono justify-center items-center shadow-inner">
+        <footer className="flex h-10 font-mali justify-center items-center shadow-inner">
           Cheeky Sneakies © A Tyler M Company
         </footer>
       </div>
