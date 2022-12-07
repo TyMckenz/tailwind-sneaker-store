@@ -67,7 +67,7 @@ export default function PlaceOrderScreen() {
       {cartItems.length === 0 ? (
         <div className="text-2xl text-center">
           Cart Is Empty.{' '}
-          <Link href="/" className="text-underline">
+          <Link href="/" className="underline">
             Check New Arrivals
           </Link>
         </div>
