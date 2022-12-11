@@ -4,5 +4,6 @@ Description:
 
 ## Personal project combining my passion for sneakers and full stack development
 
-Actively fixing: Currently Mens shoes will be the only ones with product pages,
-looking for a fix.
+### Based on NextJS Ecommerce website tutorial done by Coding With Basir on Youtube.
+
+Actively fixing: Paypal Sandbox was throwing errors, removed option from project for right now.
